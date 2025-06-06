@@ -9,6 +9,7 @@
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         document.getElementsByClassName("header")[0].style.backgroundImage = "url(assets/img/bg/11.jpg)"
+        document.getElementById("copyright").textContent = `© wlsoft ${new Date().getFullYear()}, All rights reserved.`;
       });
     </script>
   </head>
@@ -38,7 +39,7 @@
             <div class="col-12 text-center">
               <small>business@wlsoft.work</small>
               <br/>
-              <small>© wlsoft 2024, All rights reserved.</small>
+              <small id="copyright"></small>
             </div>
           </div>
         </div>
